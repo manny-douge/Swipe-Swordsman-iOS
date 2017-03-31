@@ -530,7 +530,7 @@
 #pragma mark - Ad stuff
 -(void)createAndLoadInterstitial
 {
-    interstitial = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-6139685436031643/2671424213"];
+    interstitial = [[GADInterstitial alloc] initWithAdUnitID:@""];
     GADRequest *request = [GADRequest request];
     //Request test ads on devices you specify
     [interstitial loadRequest:request];
